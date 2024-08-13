@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "IP": "192.168.3.10",
+        "port": "2000",
+        "endian": "big"
+    },
+    "cameras": [
+        {
+            "name": "HIK",
+            "protocol": "ONVIF",
+            "parameters": {
+                "functionality": "PTZ",
+                "ip": "192.168.3.60",
+                "port": "80",
+                "username": "admin",
+                "password": "Cam3ra_%JB"
+            }
+        },
+        {
+            "name": "Harrier",
+            "protocol": "Harrier",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "192.168.3.62",
+                "port": "8000",
+                "username": "admin",
+                "password": "admin"
+            }
+        },
+        {
+            "name": "VISCA_IP",
+            "protocol": "VISCA IP",
+            "parameters": {
+                "functionality": "PTZ",
+                "ip": "192.168.3.55",
+                "port": "69"
+            }
+        },
+        {
+            "name": "VISCA_Serial",
+            "protocol": "VISCA Serial",
+            "parameters": {
+                "functionality": "Zoom only",
+                "port": "COM4"
+            }
+        }
+    ]
+}
