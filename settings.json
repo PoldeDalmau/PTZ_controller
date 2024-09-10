@@ -1,47 +1,141 @@
 {
     "settings": {
-        "IP": "192.168.3.10",
-        "port": "2000",
+        "IP": "172.16.10.129",
+        "port": "2001",
         "endian": "big"
     },
     "cameras": [
         {
-            "name": "HIK",
-            "protocol": "ONVIF",
+            "name": "Marshall 021",
+            "protocol": "VISCA IP",
             "parameters": {
-                "functionality": "PTZ",
-                "ip": "192.168.3.60",
-                "port": "80",
-                "username": "admin",
-                "password": "Cam3ra_%JB"
+                "functionality": "Zoom only",
+                "ip": "172.16.10.21",
+                "port": "52381"
             }
         },
         {
-            "name": "Harrier",
+            "name": "Marshall 031",
+            "protocol": "VISCA IP",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.31",
+                "port": "52381"
+            }
+        },
+        {
+            "name": "Marshall 032",
+            "protocol": "VISCA IP",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.32",
+                "port": "52381"
+            }
+        },
+        {
+            "name": "Marshall 033",
+            "protocol": "VISCA IP",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.33",
+                "port": "52381"
+            }
+        },
+        {
+            "name": "HIKvision 141",
+            "protocol": "ONVIF",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.141",
+                "port": "80",
+                "username": "admin",
+                "password": "1923Aib#"
+            }
+        },
+        {
+            "name": "Marshall 151",
+            "protocol": "VISCA IP",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.151",
+                "port": "52381"
+            }
+        },
+        {
+            "name": "Bullet 152",
+            "protocol": "ONVIF",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.152",
+                "port": "80",
+                "username": "root",
+                "password": "6435Fdc%"
+            }
+        },
+        {
+            "name": "Bullet 153",
+            "protocol": "ONVIF",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.153",
+                "port": "80",
+                "username": "root",
+                "password": "9814Iha$"
+            }
+        },
+        {
+            "name": "Bullet 161",
+            "protocol": "ONVIF",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.161",
+                "port": "80",
+                "username": "root",
+                "password": "3095Cji%"
+            }
+        },
+        {
+            "name": "Harrier 162",
             "protocol": "Harrier",
             "parameters": {
                 "functionality": "Zoom only",
-                "ip": "192.168.3.62",
+                "ip": "172.16.10.162",
                 "port": "8000",
                 "username": "admin",
-                "password": "admin"
+                "password": "1084Ajh$"
             }
         },
         {
-            "name": "VISCA_IP",
-            "protocol": "VISCA IP",
-            "parameters": {
-                "functionality": "PTZ",
-                "ip": "192.168.3.55",
-                "port": "69"
-            }
-        },
-        {
-            "name": "VISCA_Serial",
-            "protocol": "VISCA Serial",
+            "name": "Bullet 163",
+            "protocol": "ONVIF",
             "parameters": {
                 "functionality": "Zoom only",
-                "port": "COM4"
+                "ip": "172.16.10.163",
+                "port": "80",
+                "username": "root",
+                "password": "1271Abg!"
+            }
+        },
+        {
+            "name": "Bullet 171",
+            "protocol": "ONVIF",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.171",
+                "port": "80",
+                "username": "root",
+                "password": "8304Hcj$"
+            }
+        },
+        {
+            "name": "Bullet 181",
+            "protocol": "ONVIF",
+            "parameters": {
+                "functionality": "Zoom only",
+                "ip": "172.16.10.181",
+                "port": "80",
+                "username": "root",
+                "password": "7793Ggi#"
             }
         }
     ]
